@@ -26,7 +26,7 @@
       "type": "nominal",
       "title": "Country or region"
     },
-    "y": {"field": "Score", "type": "quantitative"},
+    "y": {"field": "Score", "type": "quantitative"}
     
   },
   "layer": [
