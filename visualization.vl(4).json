@@ -27,7 +27,7 @@
       "title": "Country or region"
     },
     "y": {"field": "Score", "type": "quantitative"},
-    "color": {"field": "Score", "type": "quantitative"}
+    
   },
   "layer": [
     {
