@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 400,
+  "title": "COVID-19 Cases per Country (13 Oct 2020)",
+  "data": {
+    "url": "https://raw.githubusercontent.com/zyxzyx123/FIT3179/main/2019.csv"
+  },
+  "params": [
+    {
+      "name": "score_slider",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 9,
+        "step": 0.1,
+        "name": "minimum score: "
+      }
+    }
+  ],
+  "transform": [{"filter": "datum.Score > score_slider"}],
+  "encoding": {
+    "x": {
+      "field": "Country or region",
+      "type": "nominal",
+      "title": "Country or region"
+    },
+    "y": {"field": "Score", "type": "quantitative"},
+    "color": {"field": "Score", "type": "quantitative"}
+  },
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "color": {"field": "Score", "type": "quantitative"},
+        "tooltip": [
+          {"field": "Country or region", "type": "nominal"},
+          {"field": "Score", "type": "quantitative"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "Country or region", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Country or region'] == 'China' || datum['Country or region'] == 'Singapore' || datum['Country or region'] == 'Australia' || datum['Country or region'] == 'New Zealand' || datum['Country or region'] == 'Italy' || datum['Country or region'] == 'Yemen' ||  datum['Country or region'] == 'United States'",
+            "value": 1
+          },
+          "value": 0
+        },
+        "tooltip": [
+          {"field": "Country or region", "type": "nominal"},
+          {"field": "Score", "type": "quantitative"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}
