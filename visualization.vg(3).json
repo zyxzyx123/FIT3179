@@ -1,0 +1,200 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 500,
+  "height": 400,
+  "title": {
+    "text": "COVID-19 Cases per Country (13 Oct 2020)",
+    "frame": "group"
+  },
+  "style": "cell",
+  "data": [
+    {
+      "name": "source_0",
+      "url": "https://raw.githubusercontent.com/zyxzyx123/FIT3179/main/2019.csv",
+      "format": {"type": "csv", "delimiter": ","},
+      "transform": [{"type": "filter", "expr": "datum.Score > score_slider"}]
+    },
+    {
+      "name": "data_0",
+      "source": "source_0",
+      "transform": [
+        {
+          "type": "stack",
+          "groupby": ["Country or region"],
+          "field": "Score",
+          "sort": {"field": ["Score"], "order": ["descending"]},
+          "as": ["Score_start", "Score_end"],
+          "offset": "zero"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"Score\"]) && isFinite(+datum[\"Score\"])"
+        }
+      ]
+    },
+    {
+      "name": "data_1",
+      "source": "source_0",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"Score\"]) && isFinite(+datum[\"Score\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "score_slider",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 9,
+        "step": 0.1,
+        "name": "minimum score: "
+      }
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_marks",
+      "type": "rect",
+      "style": ["bar"],
+      "from": {"data": "data_0"},
+      "encode": {
+        "update": {
+          "fill": {"scale": "color", "field": "Score"},
+          "tooltip": {
+            "signal": "{\"Country or region\": isValid(datum[\"Country or region\"]) ? datum[\"Country or region\"] : \"\"+datum[\"Country or region\"], \"Score\": format(datum[\"Score\"], \"\")}"
+          },
+          "ariaRoleDescription": {"value": "bar"},
+          "description": {
+            "signal": "\"Country or region: \" + (isValid(datum[\"Country or region\"]) ? datum[\"Country or region\"] : \"\"+datum[\"Country or region\"]) + \"; Score: \" + (format(datum[\"Score\"], \"\"))"
+          },
+          "x": {"scale": "x", "field": "Country or region"},
+          "width": {"scale": "x", "band": 1},
+          "y": {"scale": "y", "field": "Score_end"},
+          "y2": {"scale": "y", "field": "Score_start"}
+        }
+      }
+    },
+    {
+      "name": "layer_1_marks",
+      "type": "text",
+      "style": ["text"],
+      "from": {"data": "data_1"},
+      "encode": {
+        "update": {
+          "align": {"value": "right"},
+          "baseline": {"value": "middle"},
+          "dx": {"value": -12},
+          "fontSize": {"value": 11.5},
+          "fontStyle": {"value": "italic"},
+          "fill": {"value": "black"},
+          "opacity": [
+            {
+              "test": "datum['Country or region'] == 'China' || datum['Country or region'] == 'Singapore' || datum['Country or region'] == 'Australia' || datum['Country or region'] == 'New Zealand' || datum['Country or region'] == 'Italy' || datum['Country or region'] == 'Yemen' ||  datum['Country or region'] == 'United States'",
+              "value": 1
+            },
+            {"value": 0}
+          ],
+          "tooltip": {
+            "signal": "{\"Country or region\": isValid(datum[\"Country or region\"]) ? datum[\"Country or region\"] : \"\"+datum[\"Country or region\"], \"Score\": format(datum[\"Score\"], \"\")}"
+          },
+          "description": {
+            "signal": "\"Country or region: \" + (isValid(datum[\"Country or region\"]) ? datum[\"Country or region\"] : \"\"+datum[\"Country or region\"]) + \"; Score: \" + (format(datum[\"Score\"], \"\"))"
+          },
+          "x": {"scale": "x", "field": "Country or region", "band": 0.5},
+          "y": {"scale": "y", "field": "Score"},
+          "text": {
+            "signal": "isValid(datum[\"Country or region\"]) ? datum[\"Country or region\"] : \"\"+datum[\"Country or region\"]"
+          }
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "band",
+      "domain": {
+        "fields": [
+          {"data": "data_0", "field": "Country or region"},
+          {"data": "data_1", "field": "Country or region"}
+        ],
+        "sort": true
+      },
+      "range": [0, {"signal": "width"}],
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": {
+        "fields": [
+          {"data": "data_0", "field": "Score_start"},
+          {"data": "data_0", "field": "Score_end"},
+          {"data": "data_1", "field": "Score"}
+        ]
+      },
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "color",
+      "type": "linear",
+      "domain": {"data": "data_0", "field": "Score"},
+      "range": "ramp",
+      "interpolate": "hcl",
+      "zero": false
+    }
+  ],
+  "axes": [
+    {
+      "scale": "y",
+      "orient": "left",
+      "gridScale": "x",
+      "grid": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "domain": false,
+      "labels": false,
+      "aria": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "title": "Country or region",
+      "labelAlign": "right",
+      "labelAngle": 270,
+      "labelBaseline": "middle",
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "grid": false,
+      "title": "Score",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "gradientLength": {"signal": "clamp(height, 64, 200)"},
+      "title": "Score"
+    }
+  ],
+  "config": {}
+}
