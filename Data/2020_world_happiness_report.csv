@@ -1,0 +1,967 @@
+﻿Continent,Country,Kinds,Happiness Score,Value
+Europe,Finland,Dystopia Residual,7.808700085,2.762835026
+Europe,Finland,Freedom,7.808700085,0.66231674
+Europe,Finland,Gdp Per Capita,7.808700085,1.285189509
+Europe,Finland,Generosity,7.808700085,0.159670442
+Europe,Finland,Government Trust,7.808700085,0.477857262
+Europe,Finland,Health,7.808700085,0.961271405
+Europe,Finland,Social Support,7.808700085,1.499525905
+Europe,Denmark,Dystopia Residual,7.645599842,2.432740688
+Europe,Denmark,Freedom,7.645599842,0.665039897
+Europe,Denmark,Gdp Per Capita,7.645599842,1.326948524
+Europe,Denmark,Generosity,7.645599842,0.242793396
+Europe,Denmark,Government Trust,7.645599842,0.495260328
+Europe,Denmark,Health,7.645599842,0.979332566
+Europe,Denmark,Social Support,7.645599842,1.503449202
+Europe,Switzerland,Dystopia Residual,7.559899807,2.35026741
+Europe,Switzerland,Freedom,7.559899807,0.62895447
+Europe,Switzerland,Gdp Per Capita,7.559899807,1.39077425
+Europe,Switzerland,Generosity,7.559899807,0.269055754
+Europe,Switzerland,Government Trust,7.559899807,0.407945901
+Europe,Switzerland,Health,7.559899807,1.040533185
+Europe,Switzerland,Social Support,7.559899807,1.472403407
+Europe,Iceland,Dystopia Residual,7.504499912,2.460688114
+Europe,Iceland,Freedom,7.504499912,0.661980748
+Europe,Iceland,Gdp Per Capita,7.504499912,1.326501608
+Europe,Iceland,Generosity,7.504499912,0.362330228
+Europe,Iceland,Government Trust,7.504499912,0.144540772
+Europe,Iceland,Health,7.504499912,1.000843406
+Europe,Iceland,Social Support,7.504499912,1.547567487
+Europe,Norway,Dystopia Residual,7.487999916,2.168266296
+Europe,Norway,Freedom,7.487999916,0.670200884
+Europe,Norway,Gdp Per Capita,7.487999916,1.42420733
+Europe,Norway,Generosity,7.487999916,0.287985086
+Europe,Norway,Government Trust,7.487999916,0.434100568
+Europe,Norway,Health,7.487999916,1.008071899
+Europe,Norway,Social Support,7.487999916,1.495172501
+Europe,Netherlands,Dystopia Residual,7.448900223,2.352117062
+Europe,Netherlands,Freedom,7.448900223,0.61362648
+Europe,Netherlands,Gdp Per Capita,7.448900223,1.338946342
+Europe,Netherlands,Generosity,7.448900223,0.336317569
+Europe,Netherlands,Government Trust,7.448900223,0.368569762
+Europe,Netherlands,Health,7.448900223,0.975675344
+Europe,Netherlands,Social Support,7.448900223,1.463645935
+Europe,Sweden,Dystopia Residual,7.353499889,2.246299267
+Europe,Sweden,Freedom,7.353499889,0.650297701
+Europe,Sweden,Gdp Per Capita,7.353499889,1.322235227
+Europe,Sweden,Generosity,7.353499889,0.272827893
+Europe,Sweden,Government Trust,7.353499889,0.442066371
+Europe,Sweden,Health,7.353499889,0.986470461
+Europe,Sweden,Social Support,7.353499889,1.433347702
+Australia,New Zealand,Dystopia Residual,7.299600124,2.128108025
+Australia,New Zealand,Freedom,7.299600124,0.646789908
+Australia,New Zealand,Gdp Per Capita,7.299600124,1.242317915
+Australia,New Zealand,Generosity,7.299600124,0.325726211
+Australia,New Zealand,Government Trust,7.299600124,0.461268276
+Australia,New Zealand,Health,7.299600124,1.008138299
+Australia,New Zealand,Social Support,7.299600124,1.48721838
+Europe,Austria,Dystopia Residual,7.294199944,2.398446083
+Europe,Austria,Freedom,7.294199944,0.603368878
+Europe,Austria,Gdp Per Capita,7.294199944,1.317285538
+Europe,Austria,Generosity,7.294199944,0.255509764
+Europe,Austria,Government Trust,7.294199944,0.281256139
+Europe,Austria,Health,7.294199944,1.000933528
+Europe,Austria,Social Support,7.294199944,1.437444925
+Europe,Luxembourg,Dystopia Residual,7.237500191,2.153700352
+Europe,Luxembourg,Freedom,7.237500191,0.610137045
+Europe,Luxembourg,Gdp Per Capita,7.237500191,1.536676049
+Europe,Luxembourg,Generosity,7.237500191,0.19595392
+Europe,Luxembourg,Government Trust,7.237500191,0.367041469
+Europe,Luxembourg,Health,7.237500191,0.986442685
+Europe,Luxembourg,Social Support,7.237500191,1.387528419
+North America,Canada,Dystopia Residual,7.23210001,2.195269108
+North America,Canada,Freedom,7.23210001,0.644028127
+North America,Canada,Gdp Per Capita,7.23210001,1.301647663
+North America,Canada,Generosity,7.23210001,0.28152892
+North America,Canada,Government Trust,7.23210001,0.351701856
+North America,Canada,Health,7.23210001,1.022501945
+North America,Canada,Social Support,7.23210001,1.435391903
+Australia,Australia,Dystopia Residual,7.222799778,2.129804134
+Australia,Australia,Freedom,7.222799778,0.621877193
+Australia,Australia,Gdp Per Capita,7.222799778,1.310396433
+Australia,Australia,Generosity,7.222799778,0.324973613
+Australia,Australia,Government Trust,7.222799778,0.335996419
+Australia,Australia,Health,7.222799778,1.022607684
+Australia,Australia,Social Support,7.222799778,1.477146268
+Europe,United Kingdom,Dystopia Residual,7.164500237,2.236721992
+Europe,United Kingdom,Freedom,7.164500237,0.525168657
+Europe,United Kingdom,Gdp Per Capita,7.164500237,1.273061037
+Europe,United Kingdom,Generosity,7.164500237,0.373433441
+Europe,United Kingdom,Government Trust,7.164500237,0.322601646
+Europe,United Kingdom,Health,7.164500237,0.97570008
+Europe,United Kingdom,Social Support,7.164500237,1.457844973
+Asia,Israel,Dystopia Residual,7.128600121,2.713358402
+Asia,Israel,Freedom,7.128600121,0.420699477
+Asia,Israel,Gdp Per Capita,7.128600121,1.216463685
+Asia,Israel,Generosity,7.128600121,0.266861796
+Asia,Israel,Government Trust,7.128600121,0.09989845
+Asia,Israel,Health,7.128600121,1.008052945
+Asia,Israel,Social Support,7.128600121,1.403256774
+South America,Costa Rica,Dystopia Residual,7.121399879,2.953135014
+South America,Costa Rica,Freedom,7.121399879,0.645017743
+South America,Costa Rica,Gdp Per Capita,7.121399879,0.981107712
+South America,Costa Rica,Generosity,7.121399879,0.131266311
+South America,Costa Rica,Government Trust,7.121399879,0.096362092
+South America,Costa Rica,Health,7.121399879,0.939635336
+South America,Costa Rica,Social Support,7.121399879,1.374853611
+Europe,Ireland,Dystopia Residual,7.093699932,1.943878174
+Europe,Ireland,Freedom,7.093699932,0.587779939
+Europe,Ireland,Gdp Per Capita,7.093699932,1.446886778
+Europe,Ireland,Generosity,7.093699932,0.295426995
+Europe,Ireland,Government Trust,7.093699932,0.373433262
+Europe,Ireland,Health,7.093699932,0.975670695
+Europe,Ireland,Social Support,7.093699932,1.470596433
+Europe,Germany,Dystopia Residual,7.075799942,2.295249462
+Europe,Germany,Freedom,7.075799942,0.564274132
+Europe,Germany,Gdp Per Capita,7.075799942,1.314184546
+Europe,Germany,Generosity,7.075799942,0.252037704
+Europe,Germany,Government Trust,7.075799942,0.309362292
+Europe,Germany,Health,7.075799942,0.972114801
+Europe,Germany,Social Support,7.075799942,1.368543744
+North America,United States,Dystopia Residual,6.939599991,2.344124794
+North America,United States,Freedom,6.939599991,0.534608245
+North America,United States,Gdp Per Capita,6.939599991,1.37398684
+North America,United States,Generosity,6.939599991,0.298143059
+North America,United States,Government Trust,6.939599991,0.152284741
+North America,United States,Health,6.939599991,0.831618011
+North America,United States,Social Support,6.939599991,1.404786706
+Europe,Czech Republic,Dystopia Residual,6.910900116,2.796808243
+Europe,Czech Republic,Freedom,6.910900116,0.505744576
+Europe,Czech Republic,Gdp Per Capita,6.910900116,1.212322354
+Europe,Czech Republic,Generosity,6.910900116,0.046325929
+Europe,Czech Republic,Government Trust,6.910900116,0.049803223
+Europe,Czech Republic,Health,6.910900116,0.89456445
+Europe,Czech Republic,Social Support,6.910900116,1.40528667
+Europe,Belgium,Dystopia Residual,6.863500118,2.348626614
+Europe,Belgium,Freedom,6.863500118,0.499805421
+Europe,Belgium,Gdp Per Capita,6.863500118,1.295842767
+Europe,Belgium,Generosity,6.863500118,0.146966159
+Europe,Belgium,Government Trust,6.863500118,0.208724052
+Europe,Belgium,Health,6.863500118,0.964901149
+Europe,Belgium,Social Support,6.863500118,1.398677588
+Asia,United Arab Emirates,Dystopia Residual,6.790800095,2.166965961
+Asia,United Arab Emirates,Freedom,6.790800095,0.652936101
+Asia,United Arab Emirates,Gdp Per Capita,6.790800095,1.431086421
+Asia,United Arab Emirates,Generosity,6.790800095,0.28065598
+Asia,United Arab Emirates,Government Trust,6.790800095,0.220213518
+Asia,United Arab Emirates,Health,6.790800095,0.787814438
+Asia,United Arab Emirates,Social Support,6.790800095,1.251170993
+Europe,Malta,Dystopia Residual,6.772799969,1.952012062
+Europe,Malta,Freedom,6.772799969,0.633239031
+Europe,Malta,Gdp Per Capita,6.772799969,1.252513289
+Europe,Malta,Generosity,6.772799969,0.341180831
+Europe,Malta,Government Trust,6.772799969,0.178864077
+Europe,Malta,Health,6.772799969,0.972042024
+Europe,Malta,Social Support,6.772799969,1.442956924
+Europe,France,Dystopia Residual,6.663799763,2.053198338
+Europe,France,Freedom,6.663799763,0.514050901
+Europe,France,Gdp Per Capita,6.663799763,1.268129349
+Europe,France,Generosity,6.663799763,0.112607703
+Europe,France,Government Trust,6.663799763,0.227303237
+Europe,France,Health,6.663799763,1.029714227
+Europe,France,Social Support,6.663799763,1.458839178
+North America,Mexico,Dystopia Residual,6.465000153,2.662540197
+North America,Mexico,Freedom,6.465000153,0.553892553
+North America,Mexico,Gdp Per Capita,6.465000153,1.024387479
+North America,Mexico,Generosity,6.465000153,0.083094485
+North America,Mexico,Government Trust,6.465000153,0.083133668
+North America,Mexico,Health,6.465000153,0.831601024
+North America,Mexico,Social Support,6.465000153,1.226333499
+South America,Uruguay,Dystopia Residual,6.440100193,2.167276382
+South America,Uruguay,Freedom,6.440100193,0.59426707
+South America,Uruguay,Gdp Per Capita,6.440100193,1.071000457
+South America,Uruguay,Generosity,6.440100193,0.132143691
+South America,Uruguay,Government Trust,6.440100193,0.193425074
+South America,Uruguay,Health,6.440100193,0.856928885
+South America,Uruguay,Social Support,6.440100193,1.425081134
+Asia,Saudi Arabia,Dystopia Residual,6.406499863,2.203118801
+Asia,Saudi Arabia,Freedom,6.406499863,0.548477471
+Asia,Saudi Arabia,Gdp Per Capita,6.406499863,1.334328532
+Asia,Saudi Arabia,Generosity,6.406499863,0.087440684
+Asia,Saudi Arabia,Government Trust,6.406499863,0.163322315
+Asia,Saudi Arabia,Health,6.406499863,0.759818137
+Asia,Saudi Arabia,Social Support,6.406499863,1.309950113
+Europe,Spain,Dystopia Residual,6.400899887,1.997088432
+Europe,Spain,Freedom,6.400899887,0.425983816
+Europe,Spain,Gdp Per Capita,6.400899887,1.230535269
+Europe,Spain,Generosity,6.400899887,0.16530548
+Europe,Spain,Government Trust,6.400899887,0.109579779
+Europe,Spain,Health,6.400899887,1.051343083
+Europe,Spain,Social Support,6.400899887,1.421099186
+South America,Guatemala,Dystopia Residual,6.398900032,2.882723093
+South America,Guatemala,Freedom,6.398900032,0.613146722
+South America,Guatemala,Gdp Per Capita,6.398900032,0.753815711
+South America,Guatemala,Generosity,6.398900032,0.170611665
+South America,Guatemala,Government Trust,6.398900032,0.0983603
+South America,Guatemala,Health,6.398900032,0.705952585
+South America,Guatemala,Social Support,6.398900032,1.174267054
+Europe,Italy,Dystopia Residual,6.38740015,2.249505997
+Europe,Italy,Freedom,6.38740015,0.321305573
+Europe,Italy,Gdp Per Capita,6.38740015,1.236396074
+Europe,Italy,Generosity,6.38740015,0.170266211
+Europe,Italy,Government Trust,6.38740015,0.040145598
+Europe,Italy,Health,6.38740015,1.022504926
+Europe,Italy,Social Support,6.38740015,1.347296
+Asia,Singapore,Dystopia Residual,6.377099991,0.937031746
+Asia,Singapore,Freedom,6.377099991,0.635317206
+Asia,Singapore,Gdp Per Capita,6.377099991,1.519580126
+Asia,Singapore,Generosity,6.377099991,0.218770906
+Asia,Singapore,Government Trust,6.377099991,0.533162236
+Asia,Singapore,Health,6.377099991,1.137814283
+Asia,Singapore,Social Support,6.377099991,1.39545691
+South America,Brazil,Dystopia Residual,6.375599861,2.571860313
+South America,Brazil,Freedom,6.375599861,0.483292729
+South America,Brazil,Gdp Per Capita,6.375599861,0.952679873
+South America,Brazil,Generosity,6.375599861,0.131674588
+South America,Brazil,Government Trust,6.375599861,0.106518604
+South America,Brazil,Health,6.375599861,0.766119063
+South America,Brazil,Social Support,6.375599861,1.363464117
+Europe,Slovenia,Dystopia Residual,6.363399982,1.888586521
+Europe,Slovenia,Freedom,6.363399982,0.646700144
+Europe,Slovenia,Gdp Per Capita,6.363399982,1.208652496
+Europe,Slovenia,Generosity,6.363399982,0.145701498
+Europe,Slovenia,Government Trust,6.363399982,0.076516323
+Europe,Slovenia,Health,6.363399982,0.932548046
+Europe,Slovenia,Social Support,6.363399982,1.464677691
+South America,El Salvador,Dystopia Residual,6.34829998,2.937191725
+South America,El Salvador,Freedom,6.34829998,0.524043918
+South America,El Salvador,Gdp Per Capita,6.34829998,0.748940408
+South America,El Salvador,Generosity,6.34829998,0.1189363
+South America,El Salvador,Government Trust,6.34829998,0.117030352
+South America,El Salvador,Health,6.34829998,0.752730012
+South America,El Salvador,Social Support,6.34829998,1.149397612
+Europe,Kosovo,Dystopia Residual,6.325200081,2.736902714
+Europe,Kosovo,Freedom,6.325200081,0.557280421
+Europe,Kosovo,Gdp Per Capita,6.325200081,0.840481341
+Europe,Kosovo,Generosity,6.325200081,0.325286865
+Europe,Kosovo,Government Trust,6.325200081,0.008559024
+Europe,Kosovo,Health,6.325200081,0.672709167
+Europe,Kosovo,Social Support,6.325200081,1.183962822
+South America,Panama,Dystopia Residual,6.304800034,2.221176147
+South America,Panama,Freedom,6.304800034,0.57984978
+South America,Panama,Gdp Per Capita,6.304800034,1.097667813
+South America,Panama,Generosity,6.304800034,0.097207308
+South America,Panama,Government Trust,6.304800034,0.054230526
+South America,Panama,Health,6.304800034,0.878546536
+South America,Panama,Social Support,6.304800034,1.376149297
+Europe,Slovakia,Dystopia Residual,6.280600071,2.256422043
+Europe,Slovakia,Freedom,6.280600071,0.423542529
+Europe,Slovakia,Gdp Per Capita,6.280600071,1.194837689
+Europe,Slovakia,Generosity,6.280600071,0.116729774
+Europe,Slovakia,Government Trust,6.280600071,0.011291441
+Europe,Slovakia,Health,6.280600071,0.853465259
+Europe,Slovakia,Social Support,6.280600071,1.424331188
+Asia,Uzbekistan,Dystopia Residual,6.257599831,2.073346615
+Asia,Uzbekistan,Freedom,6.257599831,0.693270326
+Asia,Uzbekistan,Gdp Per Capita,6.257599831,0.696652949
+Asia,Uzbekistan,Generosity,6.257599831,0.363311023
+Asia,Uzbekistan,Government Trust,6.257599831,0.280260265
+Asia,Uzbekistan,Health,6.257599831,0.716703713
+Asia,Uzbekistan,Social Support,6.257599831,1.434020042
+South America,Chile,Dystopia Residual,6.228499889,2.283012867
+South America,Chile,Freedom,6.228499889,0.417482227
+South America,Chile,Gdp Per Capita,6.228499889,1.096992493
+South America,Chile,Generosity,6.228499889,0.155579001
+South America,Chile,Government Trust,6.228499889,0.06284935
+South America,Chile,Health,6.228499889,0.889260828
+South America,Chile,Social Support,6.228499889,1.323286891
+Asia,Bahrain,Dystopia Residual,6.227300167,1.751917362
+Asia,Bahrain,Freedom,6.227300167,0.610399902
+Asia,Bahrain,Gdp Per Capita,6.227300167,1.296692252
+Asia,Bahrain,Generosity,6.227300167,0.287453711
+Asia,Bahrain,Government Trust,6.227300167,0.126697257
+Asia,Bahrain,Health,6.227300167,0.838836372
+Asia,Bahrain,Social Support,6.227300167,1.31532371
+Europe,Lithuania,Dystopia Residual,6.215499878,2.238146067
+Europe,Lithuania,Freedom,6.215499878,0.42046079
+Europe,Lithuania,Gdp Per Capita,6.215499878,1.193559647
+Europe,Lithuania,Generosity,6.215499878,0.053691041
+Europe,Lithuania,Government Trust,6.215499878,0.081350274
+Europe,Lithuania,Health,6.215499878,0.795421183
+Europe,Lithuania,Social Support,6.215499878,1.432865739
+Europe,Poland,Dystopia Residual,6.186299801,2.056797981
+Europe,Poland,Freedom,6.186299801,0.557903528
+Europe,Poland,Gdp Per Capita,6.186299801,1.16922915
+Europe,Poland,Generosity,6.186299801,0.063374244
+Europe,Poland,Government Trust,6.186299801,0.160541251
+Europe,Poland,Health,6.186299801,0.868038476
+Europe,Poland,Social Support,6.186299801,1.310399771
+South America,Colombia,Dystopia Residual,6.163400173,2.421656609
+South America,Colombia,Freedom,6.163400173,0.526890039
+South America,Colombia,Gdp Per Capita,6.163400173,0.93220371
+South America,Colombia,Generosity,6.163400173,0.092374094
+South America,Colombia,Government Trust,6.163400173,0.04584837
+South America,Colombia,Health,6.163400173,0.810020149
+South America,Colombia,Social Support,6.163400173,1.33445096
+Asia,Cyprus,Dystopia Residual,6.15899992,2.032334805
+Asia,Cyprus,Freedom,6.15899992,0.459385872
+Asia,Cyprus,Gdp Per Capita,6.15899992,1.21279943
+Asia,Cyprus,Generosity,6.15899992,0.227932334
+Asia,Cyprus,Government Trust,6.15899992,0.051207144
+Asia,Cyprus,Health,6.15899992,1.026124597
+Asia,Cyprus,Social Support,6.15899992,1.149170756
+South America,Nicaragua,Dystopia Residual,6.13710022,2.496081114
+South America,Nicaragua,Freedom,6.13710022,0.560117304
+South America,Nicaragua,Gdp Per Capita,6.13710022,0.620033145
+South America,Nicaragua,Generosity,6.13710022,0.212871477
+South America,Nicaragua,Government Trust,6.13710022,0.174084574
+South America,Nicaragua,Health,6.13710022,0.803093255
+South America,Nicaragua,Social Support,6.13710022,1.27081275
+Europe,Romania,Dystopia Residual,6.123700142,2.412749767
+Europe,Romania,Freedom,6.123700142,0.534852326
+Europe,Romania,Gdp Per Capita,6.123700142,1.120401621
+Europe,Romania,Generosity,6.123700142,0.068181619
+Europe,Romania,Government Trust,6.123700142,0.000829569
+Europe,Romania,Health,6.123700142,0.79229486
+Europe,Romania,Social Support,6.123700142,1.1944381
+Asia,Kuwait,Dystopia Residual,6.102099895,1.840167999
+Asia,Kuwait,Freedom,6.102099895,0.570261419
+Asia,Kuwait,Gdp Per Capita,6.102099895,1.424833655
+Asia,Kuwait,Generosity,6.102099895,0.132751092
+Asia,Kuwait,Government Trust,6.102099895,0.112814933
+Asia,Kuwait,Health,6.102099895,0.776468933
+Asia,Kuwait,Social Support,6.102099895,1.244779825
+Africa,Mauritius,Dystopia Residual,6.101299763,2.006720543
+Africa,Mauritius,Freedom,6.101299763,0.590838134
+Africa,Mauritius,Gdp Per Capita,6.101299763,1.07366395
+Africa,Mauritius,Generosity,6.101299763,0.186894551
+Africa,Mauritius,Government Trust,6.101299763,0.084088229
+Africa,Mauritius,Health,6.101299763,0.763389409
+Africa,Mauritius,Social Support,6.101299763,1.395666838
+Asia,Kazakhstan,Dystopia Residual,6.057899952,2.021602631
+Asia,Kazakhstan,Freedom,6.057899952,0.497432142
+Asia,Kazakhstan,Gdp Per Capita,6.057899952,1.122594237
+Asia,Kazakhstan,Generosity,6.057899952,0.153713793
+Asia,Kazakhstan,Government Trust,6.057899952,0.110463686
+Asia,Kazakhstan,Health,6.057899952,0.698788941
+Asia,Kazakhstan,Social Support,6.057899952,1.453267694
+Europe,Estonia,Dystopia Residual,6.021800041,1.629928112
+Europe,Estonia,Freedom,6.021800041,0.576664805
+Europe,Estonia,Gdp Per Capita,6.021800041,1.192441225
+Europe,Estonia,Generosity,6.021800041,0.125136748
+Europe,Estonia,Government Trust,6.021800041,0.201766819
+Europe,Estonia,Health,6.021800041,0.842615008
+Europe,Estonia,Social Support,6.021800041,1.453232527
+Asia,Philippines,Dystopia Residual,6.006000042,2.501741886
+Asia,Philippines,Freedom,6.006000042,0.621915162
+Asia,Philippines,Gdp Per Capita,6.006000042,0.775120676
+Asia,Philippines,Generosity,6.006000042,0.129260212
+Asia,Philippines,Government Trust,6.006000042,0.130385727
+Asia,Philippines,Health,6.006000042,0.602189481
+Asia,Philippines,Social Support,6.006000042,1.245381713
+Europe,Hungary,Dystopia Residual,6.000400066,2.121845722
+Europe,Hungary,Freedom,6.000400066,0.386401802
+Europe,Hungary,Gdp Per Capita,6.000400066,1.164307117
+Europe,Hungary,Generosity,6.000400066,0.070491239
+Europe,Hungary,Government Trust,6.000400066,0.027548173
+Europe,Hungary,Health,6.000400066,0.806793869
+Europe,Hungary,Social Support,6.000400066,1.423009396
+Asia,Thailand,Dystopia Residual,5.998799801,1.832384109
+Asia,Thailand,Freedom,5.998799801,0.609449804
+Asia,Thailand,Gdp Per Capita,5.998799801,1.007029295
+Asia,Thailand,Generosity,5.998799801,0.376709014
+Asia,Thailand,Government Trust,5.998799801,0.031837862
+Asia,Thailand,Health,5.998799801,0.793855846
+Asia,Thailand,Social Support,5.998799801,1.347519517
+South America,Argentina,Dystopia Residual,5.974699974,2.072540998
+South America,Argentina,Freedom,5.974699974,0.520840347
+South America,Argentina,Gdp Per Capita,5.974699974,1.028465629
+South America,Argentina,Generosity,5.974699974,0.070100471
+South America,Argentina,Government Trust,5.974699974,0.060415059
+South America,Argentina,Health,5.974699974,0.849773705
+South America,Argentina,Social Support,5.974699974,1.372543693
+South America,Honduras,Dystopia Residual,5.953199863,2.464295387
+South America,Honduras,Freedom,5.953199863,0.568148077
+South America,Honduras,Gdp Per Capita,5.953199863,0.598763585
+South America,Honduras,Generosity,5.953199863,0.256528199
+South America,Honduras,Government Trust,5.953199863,0.086807102
+South America,Honduras,Health,5.953199863,0.791989982
+South America,Honduras,Social Support,5.953199863,1.186664104
+Europe,Latvia,Dystopia Residual,5.949999809,2.121283054
+Europe,Latvia,Freedom,5.949999809,0.329198807
+Europe,Latvia,Gdp Per Capita,5.949999809,1.14139545
+Europe,Latvia,Generosity,5.949999809,0.075407945
+Europe,Latvia,Government Trust,5.949999809,0.090391524
+Europe,Latvia,Health,5.949999809,0.777902424
+Europe,Latvia,Social Support,5.949999809,1.414398789
+South America,Ecuador,Dystopia Residual,5.925199986,2.254933834
+South America,Ecuador,Freedom,5.925199986,0.555234551
+South America,Ecuador,Gdp Per Capita,5.925199986,0.853383601
+South America,Ecuador,Generosity,5.925199986,0.115006477
+South America,Ecuador,Government Trust,5.925199986,0.086753383
+South America,Ecuador,Health,5.925199986,0.838837743
+South America,Ecuador,Social Support,5.925199986,1.221027613
+Europe,Portugal,Dystopia Residual,5.910900116,1.752558708
+Europe,Portugal,Freedom,5.910900116,0.589895189
+Europe,Portugal,Gdp Per Capita,5.910900116,1.168800831
+Europe,Portugal,Generosity,5.910900116,0.053036947
+Europe,Portugal,Government Trust,5.910900116,0.027733466
+Europe,Portugal,Health,5.910900116,0.979315281
+Europe,Portugal,Social Support,5.910900116,1.339530349
+South America,Jamaica,Dystopia Residual,5.889800072,2.214436531
+South America,Jamaica,Freedom,5.889800072,0.553124607
+South America,Jamaica,Gdp Per Capita,5.889800072,0.779058397
+South America,Jamaica,Generosity,5.889800072,0.116268493
+South America,Jamaica,Government Trust,5.889800072,0.030147785
+South America,Jamaica,Health,5.889800072,0.788434088
+South America,Jamaica,Social Support,5.889800072,1.408289194
+Asia,South Korea,Dystopia Residual,5.872399807,1.946757078
+Asia,South Korea,Freedom,5.872399807,0.25935635
+Asia,South Korea,Gdp Per Capita,5.872399807,1.245300651
+Asia,South Korea,Generosity,5.872399807,0.170303866
+Asia,South Korea,Government Trust,5.872399807,0.094596282
+Asia,South Korea,Health,5.872399807,1.022542596
+Asia,South Korea,Social Support,5.872399807,1.133560538
+Asia,Japan,Dystopia Residual,5.870800018,1.486200333
+Asia,Japan,Freedom,5.870800018,0.495465875
+Asia,Japan,Gdp Per Capita,5.870800018,1.26672411
+Asia,Japan,Generosity,5.870800018,0.03571178
+Asia,Japan,Government Trust,5.870800018,0.181439638
+Asia,Japan,Health,5.870800018,1.072881341
+Asia,Japan,Social Support,5.870800018,1.332338691
+South America,Peru,Dystopia Residual,5.796800137,2.213499546
+South America,Peru,Freedom,5.796800137,0.513210058
+South America,Peru,Gdp Per Capita,5.796800137,0.91854918
+South America,Peru,Generosity,5.796800137,0.091611817
+South America,Peru,Government Trust,5.796800137,0.02703266
+South America,Peru,Health,5.796800137,0.824444175
+South America,Peru,Social Support,5.796800137,1.208405972
+Europe,Serbia,Dystopia Residual,5.77820015,2.029040098
+Europe,Serbia,Freedom,5.77820015,0.395428419
+Europe,Serbia,Gdp Per Capita,5.77820015,0.988181829
+Europe,Serbia,Generosity,5.77820015,0.15028289
+Europe,Serbia,Government Trust,5.77820015,0.059447147
+Europe,Serbia,Health,5.77820015,0.828403294
+Europe,Serbia,Social Support,5.77820015,1.327448964
+South America,Bolivia,Dystopia Residual,5.747499943,2.425928593
+South America,Bolivia,Freedom,5.747499943,0.5744645
+South America,Bolivia,Gdp Per Capita,5.747499943,0.730976343
+South America,Bolivia,Generosity,5.747499943,0.138375074
+South America,Bolivia,Government Trust,5.747499943,0.072942637
+South America,Bolivia,Health,5.747499943,0.662445664
+South America,Bolivia,Social Support,5.747499943,1.142350554
+Asia,Pakistan,Dystopia Residual,5.69329977,2.976876736
+Asia,Pakistan,Freedom,5.69329977,0.405421734
+Asia,Pakistan,Gdp Per Capita,5.69329977,0.616799474
+Asia,Pakistan,Generosity,5.69329977,0.228705063
+Asia,Pakistan,Government Trust,5.69329977,0.122592121
+Asia,Pakistan,Health,5.69329977,0.469933242
+Asia,Pakistan,Social Support,5.69329977,0.872979581
+South America,Paraguay,Dystopia Residual,5.692100048,1.83412528
+South America,Paraguay,Freedom,5.692100048,0.586510062
+South America,Paraguay,Gdp Per Capita,5.692100048,0.897990823
+South America,Paraguay,Generosity,5.692100048,0.204299241
+South America,Paraguay,Government Trust,5.692100048,0.065077379
+South America,Paraguay,Health,5.692100048,0.735869646
+South America,Paraguay,Social Support,5.692100048,1.36819756
+South America,Dominican Republic,Dystopia Residual,5.689199924,1.844246864
+South America,Dominican Republic,Freedom,5.689199924,0.5628739
+South America,Dominican Republic,Gdp Per Capita,5.689199924,0.983191848
+South America,Dominican Republic,Generosity,5.689199924,0.112196781
+South America,Dominican Republic,Government Trust,5.689199924,0.115945682
+South America,Dominican Republic,Health,5.689199924,0.741901696
+South America,Dominican Republic,Social Support,5.689199924,1.328888893
+Europe,Bosnia and Herzegovina,Dystopia Residual,5.674099922,2.16724205
+Europe,Bosnia and Herzegovina,Freedom,5.674099922,0.305365741
+Europe,Bosnia and Herzegovina,Gdp Per Capita,5.674099922,0.91839546
+Europe,Bosnia and Herzegovina,Generosity,5.674099922,0.264005244
+Europe,Bosnia and Herzegovina,Government Trust,5.674099922,0.001172487
+Europe,Bosnia and Herzegovina,Health,5.674099922,0.813928187
+Europe,Bosnia and Herzegovina,Social Support,5.674099922,1.203986526
+Europe,Moldova,Dystopia Residual,5.607500076,2.370968342
+Europe,Moldova,Freedom,5.607500076,0.389571488
+Europe,Moldova,Gdp Per Capita,5.607500076,0.707916796
+Europe,Moldova,Generosity,5.607500076,0.174049184
+Europe,Moldova,Government Trust,5.607500076,0.014378744
+Europe,Moldova,Health,5.607500076,0.713299453
+Europe,Moldova,Social Support,5.607500076,1.237312198
+Asia,Tajikistan,Dystopia Residual,5.555699825,2.25650835
+Asia,Tajikistan,Freedom,5.555699825,0.521141171
+Asia,Tajikistan,Gdp Per Capita,5.555699825,0.474874616
+Asia,Tajikistan,Generosity,5.555699825,0.182417125
+Asia,Tajikistan,Government Trust,5.555699825,0.221779913
+Asia,Tajikistan,Health,5.555699825,0.680594802
+Asia,Tajikistan,Social Support,5.555699825,1.218377709
+Europe,Montenegro,Dystopia Residual,5.54610014,1.880565882
+Europe,Montenegro,Freedom,5.54610014,0.303223848
+Europe,Montenegro,Gdp Per Capita,5.54610014,1.010150075
+Europe,Montenegro,Generosity,5.54610014,0.14901033
+Europe,Montenegro,Government Trust,5.54610014,0.098435111
+Europe,Montenegro,Health,5.54610014,0.839028895
+Europe,Montenegro,Social Support,5.54610014,1.265657902
+Europe,Russia,Dystopia Residual,5.546000004,1.815716743
+Europe,Russia,Freedom,5.546000004,0.399499595
+Europe,Russia,Gdp Per Capita,5.546000004,1.126999617
+Europe,Russia,Generosity,5.546000004,0.099041916
+Europe,Russia,Government Trust,5.546000004,0.045699362
+Europe,Russia,Health,5.546000004,0.68044591
+Europe,Russia,Social Support,5.546000004,1.378644109
+Asia,Kyrgyzstan,Dystopia Residual,5.541500092,2.060206652
+Asia,Kyrgyzstan,Freedom,5.541500092,0.614617765
+Asia,Kyrgyzstan,Gdp Per Capita,5.541500092,0.513180971
+Asia,Kyrgyzstan,Generosity,5.541500092,0.30137074
+Asia,Kyrgyzstan,Government Trust,5.541500092,0.030466691
+Asia,Kyrgyzstan,Health,5.541500092,0.680645883
+Asia,Kyrgyzstan,Social Support,5.541500092,1.341036677
+Europe,Belarus,Dystopia Residual,5.539899826,1.8069911
+Europe,Belarus,Freedom,5.539899826,0.290755868
+Europe,Belarus,Gdp Per Capita,5.539899826,1.018854499
+Europe,Belarus,Generosity,5.539899826,0.08993306
+Europe,Belarus,Government Trust,5.539899826,0.193607435
+Europe,Belarus,Health,5.539899826,0.75258857
+Europe,Belarus,Social Support,5.539899826,1.38713932
+Europe,Greece,Dystopia Residual,5.514999866,2.016179085
+Europe,Greece,Freedom,5.514999866,0.173516348
+Europe,Greece,Gdp Per Capita,5.514999866,1.128070116
+Europe,Greece,Generosity,5.514999866,0
+Europe,Greece,Government Trust,5.514999866,0.048844352
+Europe,Greece,Health,5.514999866,0.979431748
+Europe,Greece,Social Support,5.514999866,1.168973565
+Europe,Croatia,Dystopia Residual,5.504700184,1.676029205
+Europe,Croatia,Freedom,5.504700184,0.381456882
+Europe,Croatia,Gdp Per Capita,5.504700184,1.109024286
+Europe,Croatia,Generosity,5.504700184,0.113998979
+Europe,Croatia,Government Trust,5.504700184,0.012325006
+Europe,Croatia,Health,5.504700184,0.900575578
+Europe,Croatia,Social Support,5.504700184,1.311264873
+Africa,Libya,Dystopia Residual,5.488800049,1.888563156
+Africa,Libya,Freedom,5.488800049,0.451354057
+Africa,Libya,Gdp Per Capita,5.488800049,1.021913767
+Africa,Libya,Generosity,5.488800049,0.142757699
+Africa,Libya,Government Trust,5.488800049,0.172258079
+Africa,Libya,Health,5.488800049,0.615626633
+Africa,Libya,Social Support,5.488800049,1.196283698
+Asia,Mongolia,Dystopia Residual,5.456200123,1.810527563
+Asia,Mongolia,Freedom,5.456200123,0.355703115
+Asia,Mongolia,Gdp Per Capita,5.456200123,0.904872775
+Asia,Mongolia,Generosity,5.456200123,0.263885736
+Asia,Mongolia,Government Trust,5.456200123,0.046533126
+Asia,Mongolia,Health,5.456200123,0.615788162
+Asia,Mongolia,Social Support,5.456200123,1.458930612
+Asia,Malaysia,Dystopia Residual,5.384300232,1.319420815
+Asia,Malaysia,Freedom,5.384300232,0.596941531
+Asia,Malaysia,Gdp Per Capita,5.384300232,1.168421626
+Asia,Malaysia,Generosity,5.384300232,0.274886161
+Asia,Malaysia,Government Trust,5.384300232,0.062163133
+Asia,Malaysia,Health,5.384300232,0.788511872
+Asia,Malaysia,Social Support,5.384300232,1.17400229
+Asia,Vietnam,Dystopia Residual,5.353499889,1.685977936
+Asia,Vietnam,Freedom,5.353499889,0.650835574
+Asia,Vietnam,Gdp Per Capita,5.353499889,0.718092382
+Asia,Vietnam,Generosity,5.353499889,0.136488721
+Asia,Vietnam,Government Trust,5.353499889,0.089848459
+Asia,Vietnam,Health,5.353499889,0.819133997
+Asia,Vietnam,Social Support,5.353499889,1.253074765
+Asia,Indonesia,Dystopia Residual,5.285600185,1.479573488
+Asia,Indonesia,Freedom,5.285600185,0.568161428
+Asia,Indonesia,Gdp Per Capita,5.285600185,0.891720712
+Asia,Indonesia,Generosity,5.285600185,0.542646527
+Asia,Indonesia,Government Trust,5.285600185,0.038278613
+Asia,Indonesia,Health,5.285600185,0.610437036
+Asia,Indonesia,Social Support,5.285600185,1.154800892
+Africa,Ivory Coast,Dystopia Residual,5.233300209,3.081022501
+Africa,Ivory Coast,Freedom,5.233300209,0.397122532
+Africa,Ivory Coast,Gdp Per Capita,5.233300209,0.537094414
+Africa,Ivory Coast,Generosity,5.233300209,0.169915587
+Africa,Ivory Coast,Government Trust,5.233300209,0.093495794
+Africa,Ivory Coast,Health,5.233300209,0.154942513
+Africa,Ivory Coast,Social Support,5.233300209,0.799727261
+Africa,Benin,Dystopia Residual,5.21600008,3.440809727
+Africa,Benin,Freedom,5.21600008,0.40583989
+Africa,Benin,Gdp Per Capita,5.21600008,0.366244704
+Africa,Benin,Generosity,5.21600008,0.196670428
+Africa,Benin,Government Trust,5.21600008,0.125931874
+Africa,Benin,Health,5.21600008,0.328062952
+Africa,Benin,Social Support,5.21600008,0.352428436
+Africa,Congo (Brazzaville),Dystopia Residual,5.194399834,2.722619534
+Africa,Congo (Brazzaville),Freedom,5.194399834,0.386514395
+Africa,Congo (Brazzaville),Gdp Per Capita,5.194399834,0.633616745
+Africa,Congo (Brazzaville),Generosity,5.194399834,0.117216013
+Africa,Congo (Brazzaville),Government Trust,5.194399834,0.118670784
+Africa,Congo (Brazzaville),Health,5.194399834,0.458101124
+Africa,Congo (Brazzaville),Social Support,5.194399834,0.757636011
+Asia,Azerbaijan,Dystopia Residual,5.164800167,1.507632971
+Asia,Azerbaijan,Freedom,5.164800167,0.467734724
+Asia,Azerbaijan,Gdp Per Capita,5.164800167,0.990272701
+Asia,Azerbaijan,Generosity,5.164800167,0.040113214
+Asia,Azerbaijan,Government Trust,5.164800167,0.247307181
+Asia,Azerbaijan,Health,5.164800167,0.731134057
+Asia,Azerbaijan,Social Support,5.164800167,1.180613041
+Africa,Ghana,Dystopia Residual,5.147999763,2.378437281
+Africa,Ghana,Freedom,5.147999763,0.477290064
+Africa,Ghana,Gdp Per Capita,5.147999763,0.575862467
+Africa,Ghana,Generosity,5.147999763,0.261291206
+Africa,Ghana,Government Trust,5.147999763,0.056570381
+Africa,Ghana,Health,5.147999763,0.432162255
+Africa,Ghana,Social Support,5.147999763,0.96636796
+Asia,Nepal,Dystopia Residual,5.137199879,2.014386892
+Asia,Nepal,Freedom,5.137199879,0.480608255
+Asia,Nepal,Gdp Per Capita,5.137199879,0.444050372
+Asia,Nepal,Generosity,5.137199879,0.300971806
+Asia,Nepal,Government Trust,5.137199879,0.127502963
+Asia,Nepal,Health,5.137199879,0.66887939
+Asia,Nepal,Social Support,5.137199879,1.100789309
+Asia,Turkey,Dystopia Residual,5.131800175,1.564816713
+Asia,Turkey,Freedom,5.131800175,0.25440076
+Asia,Turkey,Gdp Per Capita,5.131800175,1.127169251
+Asia,Turkey,Generosity,5.131800175,0.085885569
+Asia,Turkey,Government Trust,5.131800175,0.120983243
+Asia,Turkey,Health,5.131800175,0.781335294
+Asia,Turkey,Social Support,5.131800175,1.197159171
+Asia,China,Dystopia Residual,5.123899937,1.336181879
+Asia,China,Freedom,5.123899937,0.601605117
+Asia,China,Gdp Per Capita,5.123899937,0.990533412
+Asia,China,Generosity,5.123899937,0.079021044
+Asia,China,Government Trust,5.123899937,0.117255554
+Asia,China,Health,5.123899937,0.867248535
+Asia,China,Social Support,5.123899937,1.132080674
+Asia,Turkmenistan,Dystopia Residual,5.119100094,1.115337372
+Asia,Turkmenistan,Freedom,5.119100094,0.515236676
+Asia,Turkmenistan,Gdp Per Capita,5.119100094,1.008963585
+Asia,Turkmenistan,Generosity,5.119100094,0.323129326
+Asia,Turkmenistan,Government Trust,5.119100094,0.03350389
+Asia,Turkmenistan,Health,5.119100094,0.612448037
+Asia,Turkmenistan,Social Support,5.119100094,1.510476947
+Europe,Bulgaria,Dystopia Residual,5.101500034,1.294961452
+Europe,Bulgaria,Freedom,5.101500034,0.417820066
+Europe,Bulgaria,Gdp Per Capita,5.101500034,1.046554685
+Europe,Bulgaria,Generosity,5.101500034,0.103833713
+Europe,Bulgaria,Government Trust,5.101500034,0
+Europe,Bulgaria,Health,5.101500034,0.777776897
+Europe,Bulgaria,Social Support,5.101500034,1.460578918
+Africa,Morocco,Dystopia Residual,5.094799995,2.378402472
+Africa,Morocco,Freedom,5.094799995,0.450054139
+Africa,Morocco,Gdp Per Capita,5.094799995,0.75862211
+Africa,Morocco,Generosity,5.094799995,0.040032551
+Africa,Morocco,Government Trust,5.094799995,0.077385604
+Africa,Morocco,Health,5.094799995,0.745096922
+Africa,Morocco,Social Support,5.094799995,0.645208478
+Africa,Cameroon,Dystopia Residual,5.084899902,2.719370842
+Africa,Cameroon,Freedom,5.084899902,0.439242482
+Africa,Cameroon,Gdp Per Capita,5.084899902,0.503958046
+Africa,Cameroon,Generosity,5.084899902,0.198020101
+Africa,Cameroon,Government Trust,5.084899902,0.054393422
+Africa,Cameroon,Health,5.084899902,0.270189553
+Africa,Cameroon,Social Support,5.084899902,0.89972645
+South America,Venezuela,Dystopia Residual,5.053199768,1.74484086
+South America,Venezuela,Freedom,5.053199768,0.271717221
+South America,Venezuela,Gdp Per Capita,5.053199768,0.770238638
+South America,Venezuela,Generosity,5.053199768,0.087179154
+South America,Venezuela,Government Trust,5.053199768,0.063624777
+South America,Venezuela,Health,5.053199768,0.76702553
+South America,Venezuela,Social Support,5.053199768,1.348546863
+Africa,Algeria,Dystopia Residual,5.005099773,1.840811729
+Africa,Algeria,Freedom,5.005099773,0.083943799
+Africa,Algeria,Gdp Per Capita,5.005099773,0.943856001
+Africa,Algeria,Generosity,5.005099773,0.118915014
+Africa,Algeria,Government Trust,5.005099773,0.129190654
+Africa,Algeria,Health,5.005099773,0.745418549
+Africa,Algeria,Social Support,5.005099773,1.143003583
+Africa,Senegal,Dystopia Residual,4.980800152,2.405123949
+Africa,Senegal,Freedom,4.980800152,0.352400899
+Africa,Senegal,Gdp Per Capita,4.980800152,0.504061818
+Africa,Senegal,Generosity,4.980800152,0.164397135
+Africa,Senegal,Government Trust,4.980800152,0.081865937
+Africa,Senegal,Health,4.980800152,0.518391907
+Africa,Senegal,Social Support,4.980800152,0.95459342
+South America,Guinea,Dystopia Residual,4.949299812,2.740729809
+South America,Guinea,Freedom,4.949299812,0.371878058
+South America,Guinea,Gdp Per Capita,4.949299812,0.390007734
+South America,Guinea,Generosity,4.949299812,0.249490842
+South America,Guinea,Government Trust,4.949299812,0.112204559
+South America,Guinea,Health,4.949299812,0.333655238
+South America,Guinea,Social Support,4.949299812,0.75136596
+Africa,Niger,Dystopia Residual,4.909599781,3.017630577
+Africa,Niger,Freedom,4.909599781,0.435311615
+Africa,Niger,Gdp Per Capita,4.909599781,0.108330332
+Africa,Niger,Generosity,4.909599781,0.208176896
+Africa,Niger,Government Trust,4.909599781,0.137554765
+Africa,Niger,Health,4.909599781,0.298816353
+Africa,Niger,Social Support,4.909599781,0.703800142
+Europe,Albania,Dystopia Residual,4.882699966,1.640897036
+Europe,Albania,Freedom,4.882699966,0.461945891
+Europe,Albania,Gdp Per Capita,4.882699966,0.906653047
+Europe,Albania,Generosity,4.882699966,0.171027765
+Europe,Albania,Government Trust,4.882699966,0.025361285
+Europe,Albania,Health,4.882699966,0.846329629
+Europe,Albania,Social Support,4.882699966,0.830483913
+Asia,Cambodia,Dystopia Residual,4.848400116,1.663300037
+Asia,Cambodia,Freedom,4.848400116,0.674940348
+Asia,Cambodia,Gdp Per Capita,4.848400116,0.544634938
+Asia,Cambodia,Generosity,4.848400116,0.233342081
+Asia,Cambodia,Government Trust,4.848400116,0.072837502
+Asia,Cambodia,Health,4.848400116,0.587904334
+Asia,Cambodia,Social Support,4.848400116,1.071426034
+Asia,Bangladesh,Dystopia Residual,4.832799911,1.755261898
+Asia,Bangladesh,Freedom,4.832799911,0.604130566
+Asia,Bangladesh,Gdp Per Capita,4.832799911,0.556156278
+Asia,Bangladesh,Generosity,4.832799911,0.176745117
+Asia,Bangladesh,Government Trust,4.832799911,0.176735908
+Asia,Bangladesh,Health,4.832799911,0.694940507
+Asia,Bangladesh,Social Support,4.832799911,0.868800581
+Africa,Gabon,Dystopia Residual,4.829299927,1.735027552
+Africa,Gabon,Freedom,4.829299927,0.369459897
+Africa,Gabon,Gdp Per Capita,4.829299927,0.988044381
+Africa,Gabon,Generosity,4.829299927,0.052013602
+Africa,Gabon,Government Trust,4.829299927,0.055804539
+Africa,Gabon,Health,4.829299927,0.522574842
+Africa,Gabon,Social Support,4.829299927,1.10639751
+Africa,South Africa,Dystopia Residual,4.814099789,1.625117302
+Africa,South Africa,Freedom,4.814099789,0.43478182
+Africa,South Africa,Gdp Per Capita,4.814099789,0.902140439
+Africa,South Africa,Generosity,4.814099789,0.126406848
+Africa,South Africa,Government Trust,4.814099789,0.05950214
+Africa,South Africa,Health,4.814099789,0.407034069
+Africa,South Africa,Social Support,4.814099789,1.259086251
+Asia,Iraq,Dystopia Residual,4.784800053,1.752173662
+Asia,Iraq,Freedom,4.784800053,0.283588052
+Asia,Iraq,Gdp Per Capita,4.784800053,0.982018709
+Asia,Iraq,Generosity,4.784800053,0.153002068
+Asia,Iraq,Government Trust,4.784800053,0.073164992
+Asia,Iraq,Health,4.784800053,0.529350698
+Asia,Iraq,Social Support,4.784800053,1.011466622
+Asia,Lebanon,Dystopia Residual,4.771500111,1.53554225
+Asia,Lebanon,Freedom,4.771500111,0.18551667
+Asia,Lebanon,Gdp Per Capita,4.771500111,0.889232516
+Asia,Lebanon,Generosity,4.771500111,0.158524141
+Asia,Lebanon,Government Trust,4.771500111,0.021518147
+Asia,Lebanon,Health,4.771500111,0.788671136
+Asia,Lebanon,Social Support,4.771500111,1.19249332
+Africa,Burkina Faso,Dystopia Residual,4.768700123,2.588826418
+Africa,Burkina Faso,Freedom,4.768700123,0.322398156
+Africa,Burkina Faso,Gdp Per Capita,4.768700123,0.302467644
+Africa,Burkina Faso,Generosity,4.768700123,0.186390609
+Africa,Burkina Faso,Government Trust,4.768700123,0.126408055
+Africa,Burkina Faso,Health,4.768700123,0.312833875
+Africa,Burkina Faso,Social Support,4.768700123,0.9293859
+Africa,Mali,Dystopia Residual,4.729300022,2.559335232
+Africa,Mali,Freedom,4.729300022,0.377534449
+Africa,Mali,Gdp Per Capita,4.729300022,0.352462649
+Africa,Mali,Generosity,4.729300022,0.16966705
+Africa,Mali,Government Trust,4.729300022,0.062146276
+Africa,Mali,Health,4.729300022,0.234981522
+Africa,Mali,Social Support,4.729300022,0.97314173
+Africa,Nigeria,Dystopia Residual,4.724100113,2.219635487
+Africa,Nigeria,Freedom,4.724100113,0.435079455
+Africa,Nigeria,Gdp Per Capita,4.724100113,0.645901859
+Africa,Nigeria,Generosity,4.724100113,0.221328124
+Africa,Nigeria,Government Trust,4.724100113,0.047589935
+Africa,Nigeria,Health,4.724100113,0.167835936
+Africa,Nigeria,Social Support,4.724100113,0.986717939
+Asia,Armenia,Dystopia Residual,4.676799774,1.468161583
+Asia,Armenia,Freedom,4.676799774,0.378075808
+Asia,Armenia,Gdp Per Capita,4.676799774,0.808262408
+Asia,Armenia,Generosity,4.676799774,0.107225738
+Asia,Armenia,Government Trust,4.676799774,0.104618184
+Asia,Armenia,Health,4.676799774,0.77585727
+Asia,Armenia,Social Support,4.676799774,1.034576893
+Asia,Georgia,Dystopia Residual,4.672599792,1.69239831
+Asia,Georgia,Freedom,4.672599792,0.485494107
+Asia,Georgia,Gdp Per Capita,4.672599792,0.847198069
+Asia,Georgia,Generosity,4.672599792,0.047609735
+Asia,Georgia,Government Trust,4.672599792,0.174088076
+Asia,Georgia,Health,4.672599792,0.694657624
+Asia,Georgia,Social Support,4.672599792,0.7311939
+Asia,Iran,Dystopia Residual,4.672399998,1.286969423
+Asia,Iran,Freedom,4.672399998,0.301195472
+Asia,Iran,Gdp Per Capita,4.672399998,1.029322505
+Asia,Iran,Generosity,4.672399998,0.27697894
+Asia,Iran,Government Trust,4.672399998,0.142651513
+Asia,Iran,Health,4.672399998,0.749053836
+Asia,Iran,Social Support,4.672399998,0.886271179
+Asia,Jordan,Dystopia Residual,4.633399963,1.262258053
+Asia,Jordan,Freedom,4.633399963,0.424855083
+Asia,Jordan,Gdp Per Capita,4.633399963,0.785179198
+Asia,Jordan,Generosity,4.633399963,0.091494769
+Asia,Jordan,Government Trust,4.633399963,0.151878625
+Asia,Jordan,Health,4.633399963,0.777624726
+Asia,Jordan,Social Support,4.633399963,1.140118599
+Africa,Kenya,Dystopia Residual,4.583000183,1.684904575
+Africa,Kenya,Freedom,4.583000183,0.519180536
+Africa,Kenya,Gdp Per Capita,4.583000183,0.476413399
+Africa,Kenya,Generosity,4.583000183,0.393902093
+Africa,Kenya,Government Trust,4.583000183,0.067201078
+Africa,Kenya,Health,4.583000183,0.536312759
+Africa,Kenya,Social Support,4.583000183,0.905077755
+Europe,Ukraine,Dystopia Residual,4.56069994,1.252669334
+Europe,Ukraine,Freedom,4.56069994,0.319423705
+Europe,Ukraine,Gdp Per Capita,4.56069994,0.780434608
+Europe,Ukraine,Generosity,4.56069994,0.178551316
+Europe,Ukraine,Government Trust,4.56069994,0.00965116
+Europe,Ukraine,Health,4.56069994,0.698674381
+Europe,Ukraine,Social Support,4.56069994,1.321316481
+Africa,Liberia,Dystopia Residual,4.557899952,2.386757851
+Africa,Liberia,Freedom,4.557899952,0.405943096
+Africa,Liberia,Gdp Per Capita,4.557899952,0.174103007
+Africa,Liberia,Generosity,4.557899952,0.226967871
+Africa,Liberia,Government Trust,4.557899952,0.051139876
+Africa,Liberia,Health,4.557899952,0.392284274
+Africa,Liberia,Social Support,4.557899952,0.920733929
+Asia,Palestinian Territories,Dystopia Residual,4.552800179,1.693985701
+Asia,Palestinian Territories,Freedom,4.552800179,0.29870075
+Asia,Palestinian Territories,Gdp Per Capita,4.552800179,0.587819219
+Asia,Palestinian Territories,Generosity,4.552800179,0.091816261
+Asia,Palestinian Territories,Government Trust,4.552800179,0.071913652
+Asia,Palestinian Territories,Health,4.552800179,0.613826573
+Asia,Palestinian Territories,Social Support,4.552800179,1.194755554
+Africa,Uganda,Dystopia Residual,4.43200016,1.958671093
+Africa,Uganda,Freedom,4.43200016,0.401682556
+Africa,Uganda,Gdp Per Capita,4.43200016,0.312337428
+Africa,Uganda,Generosity,4.43200016,0.264807373
+Africa,Uganda,Government Trust,4.43200016,0.063818842
+Africa,Uganda,Health,4.43200016,0.378311664
+Africa,Uganda,Social Support,4.43200016,1.052327394
+Africa,Chad,Dystopia Residual,4.422699928,2.74742651
+Africa,Chad,Freedom,4.422699928,0.228601769
+Africa,Chad,Gdp Per Capita,4.422699928,0.302287489
+Africa,Chad,Generosity,4.422699928,0.210805088
+Africa,Chad,Government Trust,4.422699928,0.085755408
+Africa,Chad,Health,4.422699928,0.1087441
+Africa,Chad,Social Support,4.422699928,0.739118278
+Africa,Tunisia,Dystopia Residual,4.392199993,1.528496742
+Africa,Tunisia,Freedom,4.392199993,0.235860556
+Africa,Tunisia,Gdp Per Capita,4.392199993,0.874742687
+Africa,Tunisia,Generosity,4.392199993,0.055881143
+Africa,Tunisia,Government Trust,4.392199993,0.043899573
+Africa,Tunisia,Health,4.392199993,0.781156719
+Africa,Tunisia,Social Support,4.392199993,0.872167706
+Africa,Mauritania,Dystopia Residual,4.374599934,1.85955739
+Africa,Mauritania,Freedom,4.374599934,0.185714483
+Africa,Mauritania,Gdp Per Capita,4.374599934,0.539684892
+Africa,Mauritania,Generosity,4.374599934,0.128899664
+Africa,Mauritania,Government Trust,4.374599934,0.122257635
+Africa,Mauritania,Health,4.374599934,0.425184816
+Africa,Mauritania,Social Support,4.374599934,1.113323569
+Asia,Sri Lanka,Dystopia Residual,4.327000141,0.611288548
+Asia,Sri Lanka,Freedom,4.327000141,0.528632462
+Asia,Sri Lanka,Gdp Per Capita,4.327000141,0.897986948
+Asia,Sri Lanka,Generosity,4.327000141,0.252666146
+Asia,Sri Lanka,Government Trust,4.327000141,0.049444564
+Asia,Sri Lanka,Health,4.327000141,0.792036712
+Asia,Sri Lanka,Social Support,4.327000141,1.19494009
+Africa,Congo (Kinshasa),Dystopia Residual,4.31099987,2.437864304
+Africa,Congo (Kinshasa),Freedom,4.31099987,0.36462298
+Africa,Congo (Kinshasa),Gdp Per Capita,4.31099987,0.062487468
+Africa,Congo (Kinshasa),Generosity,4.31099987,0.254324883
+Africa,Congo (Kinshasa),Government Trust,4.31099987,0.081466645
+Africa,Congo (Kinshasa),Health,4.31099987,0.277212054
+Africa,Congo (Kinshasa),Social Support,4.31099987,0.833055019
+Asia,Myanmar,Dystopia Residual,4.308000088,0.681462526
+Asia,Myanmar,Freedom,4.308000088,0.597478867
+Asia,Myanmar,Gdp Per Capita,4.308000088,0.67809093
+Asia,Myanmar,Generosity,4.308000088,0.569813728
+Asia,Myanmar,Government Trust,4.308000088,0.187530354
+Asia,Myanmar,Health,4.308000088,0.495443076
+Asia,Myanmar,Social Support,4.308000088,1.098178267
+Africa,Togo,Dystopia Residual,4.187200069,2.409595251
+Africa,Togo,Freedom,4.187200069,0.303539038
+Africa,Togo,Gdp Per Capita,4.187200069,0.268116266
+Africa,Togo,Generosity,4.187200069,0.200774252
+Africa,Togo,Government Trust,4.187200069,0.114826456
+Africa,Togo,Health,4.187200069,0.342731178
+Africa,Togo,Social Support,4.187200069,0.547622859
+Africa,Ethiopia,Dystopia Residual,4.186200142,1.628459215
+Africa,Ethiopia,Freedom,4.186200142,0.41256687
+Africa,Ethiopia,Gdp Per Capita,4.186200142,0.315125644
+Africa,Ethiopia,Generosity,4.186200142,0.227698103
+Africa,Ethiopia,Government Trust,4.186200142,0.117437035
+Africa,Ethiopia,Health,4.186200142,0.483846247
+Africa,Ethiopia,Social Support,4.186200142,1.001103282
+Africa,Madagascar,Dystopia Residual,4.165599823,2.136298418
+Africa,Madagascar,Freedom,4.165599823,0.192967549
+Africa,Madagascar,Gdp Per Capita,4.165599823,0.244553208
+Africa,Madagascar,Generosity,4.165599823,0.191190064
+Africa,Madagascar,Government Trust,4.165599823,0.076248638
+Africa,Madagascar,Health,4.165599823,0.500617027
+Africa,Madagascar,Social Support,4.165599823,0.823694348
+Africa,Egypt,Dystopia Residual,4.151400089,1.158818245
+Africa,Egypt,Freedom,4.151400089,0.373684734
+Africa,Egypt,Gdp Per Capita,4.151400089,0.875228941
+Africa,Egypt,Generosity,4.151400089,0.068801254
+Africa,Egypt,Government Trust,4.151400089,0.095461793
+Africa,Egypt,Health,4.151400089,0.596911311
+Africa,Egypt,Social Support,4.151400089,0.982539535
+Africa,Sierra Leone,Dystopia Residual,3.926399946,2.046271801
+Africa,Sierra Leone,Freedom,3.926399946,0.382027686
+Africa,Sierra Leone,Gdp Per Capita,3.926399946,0.240560383
+Africa,Sierra Leone,Generosity,3.926399946,0.257647008
+Africa,Sierra Leone,Government Trust,3.926399946,0.047940936
+Africa,Sierra Leone,Health,3.926399946,0.203953966
+Africa,Sierra Leone,Social Support,3.926399946,0.747984946
+Africa,Burundi,Dystopia Residual,3.775300026,2.401507378
+Africa,Burundi,Freedom,3.775300026,0.275399059
+Africa,Burundi,Gdp Per Capita,3.775300026,0
+Africa,Burundi,Generosity,3.775300026,0.187401786
+Africa,Burundi,Government Trust,3.775300026,0.212186828
+Africa,Burundi,Health,3.775300026,0.295212835
+Africa,Burundi,Social Support,3.775300026,0.403575271
+Africa,Zambia,Dystopia Residual,3.759399891,1.134339333
+Africa,Zambia,Freedom,3.759399891,0.49131754
+Africa,Zambia,Gdp Per Capita,3.759399891,0.536833763
+Africa,Zambia,Generosity,3.759399891,0.250620902
+Africa,Zambia,Government Trust,3.759399891,0.086705238
+Africa,Zambia,Health,3.759399891,0.36359334
+Africa,Zambia,Social Support,3.759399891,0.896037281
+South America,Haiti,Dystopia Residual,3.720799923,1.619916916
+South America,Haiti,Freedom,3.720799923,0.169297516
+South America,Haiti,Gdp Per Capita,3.720799923,0.284734428
+South America,Haiti,Generosity,3.720799923,0.463909656
+South America,Haiti,Government Trust,3.720799923,0.161935672
+South America,Haiti,Health,3.720799923,0.37436673
+South America,Haiti,Social Support,3.720799923,0.646671355
+Asia,India,Dystopia Residual,3.573299885,0.734130859
+Asia,India,Freedom,3.573299885,0.581142247
+Asia,India,Gdp Per Capita,3.573299885,0.730576158
+Asia,India,Generosity,3.573299885,0.237072483
+Asia,India,Government Trust,3.573299885,0.105587982
+Asia,India,Health,3.573299885,0.54057014
+Asia,India,Social Support,3.573299885,0.644198656
+Africa,Malawi,Dystopia Residual,3.538000107,1.552718282
+Africa,Malawi,Freedom,3.538000107,0.487389833
+Africa,Malawi,Gdp Per Capita,3.538000107,0.176534727
+Africa,Malawi,Generosity,3.538000107,0.213185057
+Africa,Malawi,Government Trust,3.538000107,0.131633952
+Africa,Malawi,Health,3.538000107,0.446163297
+Africa,Malawi,Social Support,3.538000107,0.53036809
+Asia,Yemen,Dystopia Residual,3.527400017,1.116472721
+Asia,Yemen,Freedom,3.527400017,0.243721485
+Asia,Yemen,Gdp Per Capita,3.527400017,0.392701775
+Asia,Yemen,Generosity,3.527400017,0.094689012
+Asia,Yemen,Government Trust,3.527400017,0.087352127
+Asia,Yemen,Health,3.527400017,0.41500017
+Asia,Yemen,Social Support,3.527400017,1.177477121
+Africa,Botswana,Dystopia Residual,3.478899956,0.257240534
+Africa,Botswana,Freedom,3.478899956,0.50908941
+Africa,Botswana,Gdp Per Capita,3.478899956,0.997548997
+Africa,Botswana,Generosity,3.478899956,0.033407487
+Africa,Botswana,Government Trust,3.478899956,0.101786368
+Africa,Botswana,Health,3.478899956,0.494101733
+Africa,Botswana,Social Support,3.478899956,1.08569479
+Africa,Tanzania,Dystopia Residual,3.476200104,0.718963385
+Africa,Tanzania,Freedom,3.476200104,0.509343088
+Africa,Tanzania,Gdp Per Capita,3.476200104,0.457163125
+Africa,Tanzania,Generosity,3.476200104,0.27154091
+Africa,Tanzania,Government Trust,3.476200104,0.203880861
+Africa,Tanzania,Health,3.476200104,0.442677855
+Africa,Tanzania,Social Support,3.476200104,0.872674644
+Africa,Rwanda,Dystopia Residual,3.312299967,0.548444986
+Africa,Rwanda,Freedom,3.312299967,0.604087889
+Africa,Rwanda,Gdp Per Capita,3.312299967,0.343242675
+Africa,Rwanda,Generosity,3.312299967,0.235704988
+Africa,Rwanda,Government Trust,3.312299967,0.485542476
+Africa,Rwanda,Health,3.312299967,0.572383285
+Africa,Rwanda,Social Support,3.312299967,0.522876322
+Africa,Zimbabwe,Dystopia Residual,3.299200058,0.841031075
+Africa,Zimbabwe,Freedom,3.299200058,0.37740472
+Africa,Zimbabwe,Gdp Per Capita,3.299200058,0.425564021
+Africa,Zimbabwe,Generosity,3.299200058,0.151349187
+Africa,Zimbabwe,Government Trust,3.299200058,0.080928579
+Africa,Zimbabwe,Health,3.299200058,0.375037611
+Africa,Zimbabwe,Social Support,3.299200058,1.047835231
+Asia,Afghanistan,Dystopia Residual,2.566900015,1.507235646
+Asia,Afghanistan,Freedom,2.566900015,0
+Asia,Afghanistan,Gdp Per Capita,2.566900015,0.30070585
+Asia,Afghanistan,Generosity,2.566900015,0.135234714
+Asia,Afghanistan,Government Trust,2.566900015,0.001225785
+Asia,Afghanistan,Health,2.566900015,0.266051531
+Asia,Afghanistan,Social Support,2.566900015,0.356433839
