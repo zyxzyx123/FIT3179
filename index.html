@@ -15,16 +15,24 @@
 
 <h2>This is the second visualisation</h2>
 <div id="vis2"></div>
+  
+<h2>This is the Third visualisation</h2>
+<div id="vis3"></div>
 
 <script type="text/javascript">
   var spec1 = "https://raw.githubusercontent.com/zyxzyx123/FIT3179/main/js/stacked_bar_chart.vl.json";
   var spec2 = "https://raw.githubusercontent.com/zyxzyx123/FIT3179/main/js/choropleth.vl.json";
+  var spec3 = "hhttps://raw.githubusercontent.com/zyxzyx123/FIT3179/main/js/line_chart.json";
 
   vegaEmbed('#vis1', spec1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
   vegaEmbed('#vis2', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  vegaEmbed('#vis3', spec3).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
