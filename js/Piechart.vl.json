@@ -1,0 +1,66 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A simple pie chart with embedded data.",
+  "title": "Percentage of aspects in happiness score",
+  "data": {
+    "values": [
+      {"category": "gdp_per_capita", "value": 121.95},
+      {"category": "social_support", "value": 161.53},
+      {"category": "health", "value": 98.06},
+      {"category": "freedom", "value": 64.76},
+      {"category": "generosity", "value": 25.84},
+      {"category": "government_trust", "value": 18.22},
+      {"category": "dystopia_residual", "value": 275.63}
+    ]
+  },
+  "transform": [
+    {
+      "window": [{"op": "sum", "field": "value", "as": "TotalValue"}],
+      "frame": [null, null]
+    },
+    {"calculate": "datum.value/datum.TotalValue * 100", "as": "PercentOfTotal"}
+  ],
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative", "stack": true},
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "gdp_per_capita",
+          "social_support",
+          "health",
+          "freedom",
+          "generosity",
+          "government_trust",
+          "dystopia_residual"
+        ],
+        "range": [
+          "#e41a1c",
+          "#984ea3",
+          "#ff7f00",
+          "#377eb8",
+          "#a65628",
+          "#fa9fb5",
+          "#a6cee3"
+        ]
+      }
+    },
+    "opacity": {"value": 0.6}
+  },
+  "layer": [
+    {"mark": {"type": "arc", "outerRadius": 80}},
+    {
+      "mark": {"type": "text", "radius": 90},
+      "encoding": {
+        "text": {
+          "field": "PercentOfTotal",
+          "type": "quantitative",
+          "format": ".0f"
+        }
+      }
+    }
+  ],
+  "view": {"stroke": null},
+  "config": {"background": "#f0f7fa"}
+}
