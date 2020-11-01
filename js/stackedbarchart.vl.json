@@ -1,0 +1,128 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 400,
+  "title": {
+    "text": "World Hapiness Report (2020)",
+    "subtitle": [
+      "Clicking on name of the categories in the respective legend to highlight aspects that interests you!",
+      "Filtering the data by changing the range of slider at the bottom."
+    ],
+    "subtitlePadding": 10
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/zyxzyx123/FIT3179/main/Data/2020_world_happiness_report.csv"
+  },
+  "params": [
+    {
+      "name": "score_slider",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 9,
+        "step": 0.1,
+        "name": "Minimum Happiness Score: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.Happiness_Score > score_slider"},
+    {
+      "filter": {
+        "field": "Country",
+        "oneOf": [
+          "China",
+          "Finland",
+          "Australia",
+          "United States",
+          "Japan",
+          "Russia",
+          "Malaysia",
+          "Iran",
+          "India",
+          "Yemen"
+        ]
+      }
+    }
+  ],
+  "encoding": {
+    "x": {
+      "aggregate": "sum",
+      "field": "Value",
+      "type": "quantitative",
+      "title": "Happiness Score"
+    },
+    "y": {
+      "field": "Country",
+      "type": "nominal",
+      "axis": {"tickOffset": 0},
+      "title": "Country",
+      "sort": {}
+    }
+  },
+  "layer": [
+    {
+      "selection": {
+        "aspect_highlight": {
+          "type": "multi",
+          "fields": ["Kinds"],
+          "bind": "legend"
+        }
+      },
+      "mark": "bar",
+      "encoding": {
+        "color": {
+          "field": "Kinds",
+          "type": "nominal",
+          "legend": {"title": "Categories"},
+          "scale": {
+            "domain": [
+              "Dystopia Residual",
+              "Social Support",
+              "Gdp Per Capita",
+              "Health",
+              "Freedom",
+              "Generosity",
+              "Government Trust"
+            ],
+            "range": [
+              "#377eb8",
+              "#984ea3",
+              "#ff7f00",
+              "#4daf4a",
+              "#f781bf",
+              "#ffff33",
+              "#a65628"
+            ]
+          }
+        },
+        "opacity": {
+          "condition": {"selection": "aspect_highlight", "value": 0.8},
+          "value": 0.2
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Value", "type": "quantitative", "format": ".2f"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 3},
+      "encoding": {
+        "text": {
+          "aggregate": "sum",
+          "field": "Value",
+          "type": "quantitative",
+          "format": ".2f"
+        },
+        "color": {"value": "black"},
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Happiness_Score", "type": "quantitative", "format": ".2f"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}
