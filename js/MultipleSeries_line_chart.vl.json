@@ -1,0 +1,141 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/zyxzyx123/FIT3179/main/Data/Line_chart.csv"
+  },
+  "width": 400,
+  "height": 300,
+  "title": {
+    "text": "Happiness Score Over Time In Multiple Countries",
+    "subtitle": [
+      "Hover the mouse on the line and start your exploration.",
+      "In addition, you can select a country from the menu and analyse it along"
+    ],
+    "subtitlePadding": 10
+  },
+  "params": [
+    {
+      "name": "Country_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Australia",
+          "China",
+          "India",
+          "Japan",
+          "United States",
+          "Yemen"
+        ],
+        "labels": [
+          "Show all",
+          "Australia",
+          "China",
+          "India",
+          "Japan",
+          "United States",
+          "Yemen"
+        ],
+        "name": "Country Selection: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "Country_selection == null || datum.country == Country_selection"
+    }
+  ],
+  "layer": [
+    {
+      "encoding": {
+        "x": {"field": "Time", "type": "temporal"},
+        "y": {
+          "field": "Happiness_score",
+          "type": "quantitative",
+          "scale": {"domain": [2.5, 8]}
+        },
+        "color": {
+          "field": "country",
+          "type": "nominal",
+          "legend": {"title": "Country"},
+          "scale": {
+            "range": [
+              "#377eb8",
+              "#e41a1c",
+              "#984ea3",
+              "#ff7f00",
+              "#a65628",
+              "#f781bf",
+              "#999999"
+            ]
+          }
+        }
+      },
+      "layer": [
+        {"mark": "line"},
+        {
+          "selection": {
+            "label": {
+              "type": "single",
+              "nearest": true,
+              "on": "mouseover",
+              "encodings": ["x"],
+              "empty": "none"
+            }
+          },
+          "mark": "point",
+          "encoding": {
+            "opacity": {
+              "condition": {"selection": "label", "value": 1},
+              "value": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "transform": [{"filter": {"selection": "label"}}],
+      "layer": [
+        {
+          "mark": {"type": "rule", "color": "gray"},
+          "encoding": {
+            "x": {"type": "temporal", "field": "Time", "aggregate": "min"}
+          }
+        },
+        {
+          "encoding": {
+            "text": {
+              "type": "quantitative",
+              "field": "Happiness_score",
+              "format": ".2f"
+            },
+            "x": {"type": "temporal", "field": "Time", "title": "Year"},
+            "y": {
+              "type": "quantitative",
+              "field": "Happiness_score",
+              "title": "Happiness Score",
+              "scale": {"domain": [3, 8]}
+            }
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "stroke": "white",
+                "strokeWidth": 2,
+                "align": "left",
+                "dx": 5,
+                "dy": -5
+              }
+            },
+            {
+              "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+              "encoding": {"color": {"type": "nominal", "field": "country"}}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "config": {"background": "#f0f7fa"}
+}
