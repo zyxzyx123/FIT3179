@@ -98,7 +98,7 @@
           }
         },
         "opacity": {
-          "condition": {"selection": "aspect_highlight", "value": 2},
+          "condition": {"selection": "aspect_highlight", "value": 1},
           "value": 0.6
         },
         "tooltip": [
