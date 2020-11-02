@@ -6,12 +6,8 @@
   "width": "container",
   "height": "container",
   "title": {
-    "text": "Happiness Score Over Time In Multiple Countries",
-    "subtitle": [
-      "Hover the mouse on the line and start your exploration.",
-      "In addition, you can select a country from the menu and analyse it along"
-    ],
-    "subtitlePadding": 10
+    "text": "Happiness Score Over Time In Multiple Countries"
+    
   },
   "params": [
     {
