@@ -84,7 +84,7 @@
         "color": {"field": "Score", "type": "quantitative"},
         "tooltip": [
           {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-          {"field": "Score", "type": "quantitative", "title": "Score"},
+          {"field": "Score", "type": "quantitative", "title": "Score", "format": ".2f"},
           {"field": "continent", "type": "nominal", "title": "Continent"},
           {"type": "nominal", "title": "Aspect Type: type_selection"}
         ]
