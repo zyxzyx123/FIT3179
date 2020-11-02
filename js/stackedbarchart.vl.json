@@ -3,12 +3,8 @@
   "width": "container",
   "height": "container",
   "title": {
-    "text": "World Hapiness Report (2020)",
-    "subtitle": [
-      "Clicking on name of the categories in the respective legend to highlight aspects that interests you!",
-      "Filtering the data by changing the range of slider at the bottom."
-    ],
-    "subtitlePadding": 10
+    "text": "World Hapiness Report (2020)"
+   
   },
   "data": {
     "url": "https://raw.githubusercontent.com/zyxzyx123/FIT3179/main/Data/2020_world_happiness_report.csv"
@@ -95,7 +91,8 @@
               "#ffff33",
               "#a65628"
             ]
-          }
+          },
+          "legend": {"title": "Aspects"}
         },
         "opacity": {
           "condition": {"selection": "aspect_highlight", "value": 1},
