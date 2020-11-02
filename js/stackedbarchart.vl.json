@@ -98,8 +98,8 @@
           }
         },
         "opacity": {
-          "condition": {"selection": "aspect_highlight", "value": 0.8},
-          "value": 1
+          "condition": {"selection": "aspect_highlight", "value": 0.6},
+          "value": 2
         },
         "tooltip": [
           {"field": "Country", "type": "nominal"},
