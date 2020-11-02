@@ -3,8 +3,8 @@
   "data": {
     "url": "https://raw.githubusercontent.com/zyxzyx123/FIT3179/main/Data/Line_chart.csv"
   },
-  "width": 400,
-  "height": 300,
+  "width": "container",
+  "height": "container",
   "title": {
     "text": "Happiness Score Over Time In Multiple Countries",
     "subtitle": [
