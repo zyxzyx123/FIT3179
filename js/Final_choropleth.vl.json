@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "title": "World happiness report (10 Oct 2020)",
-  "width": 800,
-  "height": 600,
+  "width": "container",
+  "height": "container",
   "projection": {"type": "equirectangular"},
   "params": [
     {
