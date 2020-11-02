@@ -124,5 +124,5 @@
       }
     }
   ],
-  "config": {}
+  "config": {"background": "#fee8c8"}
 }
