@@ -2,6 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "A simple pie chart with embedded data.",
   "title": "Percentage of aspects in happiness score",
+  "width": "container",
+  "height": "container",
   "data": {
     "values": [
       {"category": "gdp_per_capita", "value": 121.95},
