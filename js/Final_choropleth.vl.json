@@ -3,7 +3,7 @@
   "title": "World happiness report (10 Oct 2020)",
   "width": "container",
   "height": "container",
-  "projection": {"type": "equirectangular"},
+  "projection": {"type": "equalearth"},
   "params": [
     {
       "name": "aspect_selection",
@@ -90,5 +90,5 @@
       }
     }
   ],
-  "config": {"background": "#f0f7fa"}
+  "config": {"background": "#fee8c8"}
 }
