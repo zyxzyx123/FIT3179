@@ -48,7 +48,7 @@
         ]
       }
     },
-    "opacity": {"value": 1}
+    "opacity": {"value": 2}
   },
   "layer": [
     {"mark": {"type": "arc", "outerRadius": 80}},
